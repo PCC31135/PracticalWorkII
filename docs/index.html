@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link ref="./css/main.css" rel="stylesheet" type="text/css" />
+    <title>SKI & PARTY - PracticalWorkII</title>
+    <style>
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://www.10wallpaper.com/wallpaper/1920x1200/1108/Alpine_skiing_in_winter_-_Extreme_sports_wallpaper_1920x1200.jpg');
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+            /*background-position: center; Centra la imagen de fondo */
+            height: 30vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color:black
+        }
+
+        header{
+            display:flex;
+            height: 70px;
+            background-color: whitesmoke;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo{
+            display:flex;
+            align-items: center;
+        }
+
+        .logo img{
+            height: 80px;
+            margin-right: 10px;
+        }
+        
+
+        nav{
+            font-weight: 600;
+            padding-right: 10px;
+        }
+
+        nav a:hover{
+            color:coral;
+        }
+
+        @media (max-width:700px){
+            header{
+                flex-direction: column;
+            }
+
+            nav{
+                padding: 10px 0px;
+            }
+        }
+    </style>     
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Resort.png">
+            <h1 class="titulo">SKI & PARTY <br>
+                Gonzalo Arranz
+            </h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="degree.html">Degree</a>
+            <a href="fundamentals.html">Fundamentals</a>
+            <a href="net.html">Net</a>
+            <a href="topic.html">Topic</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+
+</body>
+</html>
