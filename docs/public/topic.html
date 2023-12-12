@@ -2,85 +2,120 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Topic - Organised Ski travel & party</title>
-  <meta name="description" content="Organised ski travel to Andorra, with classes, apréski and music fests.">
-  <link ref="./css/main.css" rel="stylesheet" type="text/css" />
+  <title>SKI & PARTY - Organised Ski Travel & Party</title>
+  <meta name="description" content="Organised ski travel to Andorra, with classes, après-ski, and music festivals.">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet" type="text/css" />
   <style>
-    /* Reset de estilos para eliminar márgenes y rellenos predeterminados */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
+    /* Tu CSS existente aquí */
 
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+    /* Nuevos estilos */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: whitesmoke;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-header {
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+    header {
+      background-color: #0f3057;
+      color: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
 
-h1 {
-  color: #333;
-  margin-bottom: 10px;
-}
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
 
-nav ul {
-  list-style: none;
-}
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom-color 0.3s ease-in-out;
+    }
 
-nav ul li a {
-  text-decoration: none;
-  color: #555;
-}
+    nav ul li a:hover {
+      border-bottom-color: #fff;
+    }
 
-main {
-  padding: 20px;
-}
+    main {
+      padding: 20px;
+    }
 
-/* Estilos para las secciones */
-section {
-  margin-bottom: 30px;
-}
+    section {
+      margin-bottom: 30px;
+    }
 
-h2 {
-  color: #333;
-  margin-bottom: 15px;
-}
+    h2 {
+      color: #0f3057;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
 
-h3 {
-  color: #555;
-  margin-bottom: 10px;
-}
+    h3 {
+      color: #333;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
 
-/* Estilos para el footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+    footer {
+      background-color: #0f3057;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
 
-footer p {
-  margin: 0;
-}
+    footer p {
+      margin: 0;
+    }
 
+    /* Estilos adicionales para mejorar el aspecto visual */
+    #inicio, #ubicacion, #transporte {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      max-height: 300px;
+    }
+
+    /* Estilo para los enlaces dentro de las secciones */
+    section a {
+      color: #0f3057;
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom-color 0.3s ease-in-out;
+    }
+
+    section a:hover {
+      border-bottom-color: #0f3057;
+    }
   </style>
 </head>
 <body>
@@ -88,50 +123,57 @@ footer p {
     <h1>SKI & PARTY</h1>
     <nav>
       <ul>
-        <li><a href="#inicio">Introduction</a></li>
-        <li><a href="#servicios">Services</a></li>
-        <li><a href="#ubicacion">Location</a></li>
-        <li><a href="#transporte">Transport</a></li>
+        <li><a href="#Main">Introduction</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Location">Location</a></li>
+        <li><a href="#Transport">Transport</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="inicio">
-      <h2>WELCOME</h2>
+    <section id="Main">
+      <h2>Welcome</h2>
       <p>We are a company dedicated to organizing unique ski trips, designed especially for university students and snow lovers. Our passion is to offer unforgettable experiences in the majestic mountains of Andorra.</p>
-      <p>Our packages include not only exciting days on the slopes, but also a wide range of activities, from ski lessons for all levels to vibrant music festivals in the snow with the best international DJs.</p>
+      <p>Our packages include exciting days on the slopes, plus a wide range of activities, from ski lessons for all levels to vibrant snow music festivals with top international DJs.</p>
+      <img src="../images/esqui2.jpg" alt="Ski & Party">
     </section>
 
-    <section id="servicios">
-      <h2>Servicios que Ofrecemos</h2>
-      <h3>Clases de Ski y Apréski</h3>
-      <p>Nuestros experimentados instructores ofrecen clases personalizadas para principiantes, intermedios y expertos. Además, organizamos sesiones de apréski para disfrutar después de un día en las pistas, con entretenimiento y actividades relajantes.</p>
-      <h3>Festivales de Música en la Nieve</h3>
-      <p>¡La diversión continúa cuando el sol se pone! Organizamos emocionantes festivales de música en la nieve con renombrados DJs. Baila bajo las estrellas y experimenta la fusión perfecta entre deporte y entretenimiento.</p>
+    <section id="Services">
+      <h2>Our Services</h2>
+      <h3>Ski lessons & Après-Ski</h3>
+      <p>Our experienced instructors offer customized classes for beginners, intermediates, and experts. In addition, we organize après-ski sessions to enjoy after a day on the slopes, with entertainment and relaxing activities.</p>
+      <h3>Music Fests</h3>
+      <p>The fun continues when the sun goes down! We organize exciting music festivals in the snow with renowned DJs. Dance under the stars and experience the perfect fusion of sport and entertainment.</p>
+      <a href="https://radseason.com/wp-content/uploads/2018/09/Electric-Mountain-Festival.jpg" target="_blank"><img src="https://radseason.com/wp-content/uploads/2018/09/Electric-Mountain-Festival.jpg" alt="Festival de Música en la Nieve"></a>
     </section>
 
-    <section id="ubicacion">
-      <h2>Ubicación en Andorra</h2>
-      <p>Nos encontramos en las espectaculares estaciones de esquí de Andorra, enclavadas en los impresionantes Pirineos. Con paisajes impresionantes y una amplia variedad de pistas para todos los niveles, nuestros viajes garantizan una experiencia única en un entorno natural incomparable.</p>
-      <p>Estamos estratégicamente ubicados para acceder fácilmente a las pistas, con alojamientos acogedores y comodidades modernas a pocos pasos de las actividades principales.</p>
+    <section id="Location">
+      <h2>Location - Andorra</h2>
+      <p>We are located in the spectacular ski resorts of Andorra, nestled in the stunning Pyrenees. With breathtaking landscapes and a wide variety of slopes for all levels, our trips guarantee a unique experience in an incomparable natural environment.</p>
+      <p>We are strategically located for easy access to the slopes, with cozy accommodations and modern amenities just steps from the main activities.</p>
+      <a href="https://www.google.com/maps/place/Andorra+la+Vella" target="_blank"><img src="../images/mapaAndorra.jpg" alt="Andorra's map"></a>
     </section>
 
-    <section id="transporte">
-      <h2>Medios de Transporte</h2>
-      <p>Facilitamos tu llegada a Andorra proporcionando información detallada sobre los medios de transporte disponibles:</p>
+    <section id="Transport">
+      <h2>Means of Transport</h2>
+      <p>We facilitate your arrival in Andorra by providing detailed information on the means of transport available:</p>
       <ul>
-        <li>Autobuses y traslados desde aeropuertos cercanos como Barcelona, Toulouse y Lleida</li>
-        <li>Opciones de alquiler de vehículos con descuentos para nuestros clientes</li>
-        <li>Transferencias desde estaciones de tren cercanas</li>
+        <li><a href="https://www.renfe.com/" target="_blank">Train tickets (Renfe)</a></li>
+        <li><a href="https://www.skyscanner.es/" target="_blank">Available flights(Skyscanner)</a></li>
+        <li>Buses & transfer from nearby airports like Barcelona, Toulouse & Lérida</li>
+        <li>Vehicle renting with discounts for our clients</li>
+        <li>Transfer from nearby train stations</li>
       </ul>
     </section>
 
   </main>
 
   <footer>
-    <p>All Rights Reserved &copy; 2023 SKI & PARTY</p>
+    <p>All rights reserved & copy: 2023 SKI & PARTY</p>
   </footer>
 
 </body>
 </html>
+
+
